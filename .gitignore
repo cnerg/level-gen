@@ -1,0 +1,16 @@
+*.SAT
+*.obj
+*.glb
+*.sat
+*.STEP
+__pycache__
+*.txt
+*.tscn
+*.csv
+*.stl
+# python scripts used for testing purposes
+stl_to_obj/bpy_test.py
+point_generator.py
+sat_to_tscn.py
+# extra input json file, not needed for repo
+stl_to_obj/stellarator_input.json

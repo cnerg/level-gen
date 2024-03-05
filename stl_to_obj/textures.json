@@ -1,0 +1,38 @@
+{
+    "textures": [
+        {
+            "folder": "CeilingTile",
+            "jpg_dict": {
+                "albedo": "OfficeCeiling001_1K-JPG_Color.jpg",
+                "roughness": "OfficeCeiling001_1K-JPG_Roughness.jpg",
+                "normal": "OfficeCeiling001_1K-JPG_NormalGL.jpg",
+                "depth": "OfficeCeiling001_1K-JPG_Displacement.jpg"
+            },
+            "uv1_scale": "Vector3( 1.5, 1.5, 1 )"             
+        }, 
+        {
+            "folder": "Plaster",
+            "jpg_dict": {
+                "albedo": "Plaster001_1K-JPG_Color.jpg",
+                "roughness": "Plaster001_1K-JPG_Roughness.jpg",
+                "normal": "Plaster001_1K-JPG_NormalGL.jpg",
+                "depth": "Plaster001_1K-JPG_Displacement.jpg"
+            },
+            "uv1_scale": "Vector3( 1.75, 2.25, 1 )"  
+        },
+        {
+            "folder": "TiledFloor",
+            "jpg_dict": {
+                "albedo": "Tiles051_1K-JPG_Color.jpg",
+                "roughness": "Tiles051_1K-JPG_Roughness.jpg",
+                "normal": "Tiles051_1K-JPG_NormalGL.jpg",
+                "depth": "Tiles051_1K-JPG_Displacement.jpg"
+            }
+        }
+        
+    ],
+    "other_textures": {
+        "radioactive": "albedo_color = Color( 0, 1, 0.156863, 1 )\nmetallic = 0.3\nroughness = 0.0\n",
+        "glass": "flags_transparent = true\nalbedo_color = Color( 0.364706, 0.364706, 0.364706, 0.505882 )\nmetallic = 1.0\nroughness = 0.0\n"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "header": {
+        "output_folder": "TwoRoom3",
+        "scale": 0.01,
+        "extra_textures": "extra_textures.json"
+    },
+    "meshes":[
+        {
+            "stl_file": "walls.stl",
+            "uv_map": "cube",
+            "texture": "Plaster", 
+            "collisions": true
+        },
+        {
+            "stl_file": "ceiling.stl",
+            "uv_map": "cube",
+            "texture": "CeilingTile", 
+            "collisions": true
+        },
+        {
+            "stl_file": "floor.stl",
+            "uv_map": "cube",
+            "texture": "Bricks", 
+            "collisions": true
+        },
+        {
+            "stl_file": "highefficiencyshield.stl",
+            "uv_map": "cube",
+            "texture": "glass", 
+            "collisions": true
+        },
+        {
+            "stl_file": "radioactivecylinder.stl",
+            "uv_map": "cube",
+            "texture": "radioactive", 
+            "collisions": true
+        }
+    ]
+}
